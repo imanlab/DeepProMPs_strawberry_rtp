@@ -30,11 +30,7 @@ From the trajectories, we retrieved the probabilistic weights for the ProMPs, an
 
 ### Code 
 
-In the description you will find all the necessary code to replicate and modify the project.
-
-### Results
-
-The projects containes the folders 'LOSS', 'METRIC', 'PLOTS'. In the LOSS folder you will see two pictures representing the loss of the MLP trainig; in METRIC you will se a json file containing the results of the RMSE between true and predicted trajectories; in PLOTS you will visually see how much the predicted and gt trajectory probability distributions are similar to each other. 
+Respectively in 'e00_autoencoder_f', 'e01_rtp_cnn', 'e01_rtp_cnn_joints', 'preprocessing', you will find all the necessary code to replicate and modify the project.
 
 ## Try Yourself!
 

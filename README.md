@@ -26,7 +26,7 @@ The complete raw dataset can be found at this link, where you will also find add
 
 As previously mentioned, it is comprehensive of RGB images of strawberry cluster, and collected trajectories both in task and joint space, saved as numpy arrays.
 
-From the trajectories, we retrieved the probabilistic weights for the ProMPs, and we saved them as json files. Do not panic: how to use the dataset will be explained in the follows.
+From the trajectories, we retrieved the probabilistic weights for the ProMPs, and we saved them as json files.
 
 ### Code 
 

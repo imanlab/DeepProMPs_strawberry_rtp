@@ -1,0 +1,35 @@
+Log file 'experiments/e_00_autoencoder_f/logs/test_autoencoder_trainin/log.txt' created on 2023-02-06 09:32:56
+
+Configuration: 
+{
+  "MODEL_NAME": "test_autoencoder_trainin",
+  "EXP_DIR": "experiments/e_00_autoencoder_f",
+  "DATA_DIR": "/home/francesco/PycharmProjects/dataset/dataset_autoencoder/",
+  "IMAGE_DIR": "/home/francesco/PycharmProjects/dataset/dataset_autoencoder/strawberry_bb/",
+  "IMAGE_RESHAPE": [
+    256,
+    256,
+    3
+  ],
+  "LOSS_DIR": "experiments/e_00_autoencoder_f/loss/test_autoencoder_trainin",
+  "LOG_DIR": "experiments/e_00_autoencoder_f/logs/test_autoencoder_trainin",
+  "MODEL_DIR": "experiments/e_00_autoencoder_f/models",
+  "MODEL_PATH": "experiments/e_00_autoencoder_f/models/test_autoencoder_trainin",
+  "BATCH_SIZE": 32,
+  "EPOCHS": 400,
+  "LR": 0.001,
+  "VAL_FRAC": 0.3,
+  "TEST_SIZE": 10,
+  "RANDOM_STATE": 42,
+  "ACTIVATION": "linear",
+  "OPTIMIZER": "adam",
+  "LOSS": "mse",
+  "L1_REG": 0,
+  "L2_REG": 0,
+  "ES": {
+    "enable": true,
+    "min_delta": 0,
+    "patience": 15
+  }
+}
+Evaluating 'test_autoencoder_trainin'.

@@ -38,8 +38,9 @@ The projects containes the folders 'LOSS', 'METRIC', 'PLOTS'. In the LOSS folder
 
 To reproduce the project, create a folder and inside that model download the code. On another folder called 'dataset', download the dataset.
 The training phase is done in two steps:
-  - Training of the autoencoder: open your terminal, cd to the autoencoder folder, and type "python -m experiment run"
-  - Training of the MLP: open your terminal, cd to the e01 folder, and type "python train_test.py"
+
+    - Training of the autoencoder: open your terminal, cd to the autoencoder folder, and type "python -m experiment run"
+    - Training of the MLP: open your terminal, cd to the e01 folder, and type "python train_test.py"
   
 Have fun!
 

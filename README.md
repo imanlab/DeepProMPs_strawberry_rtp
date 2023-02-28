@@ -30,7 +30,7 @@ From the trajectories, we retrieved the probabilistic weights for the ProMPs, an
 
 ### Code 
 
-In the description you will find all the necessary code to replicate and modify the project
+In the description you will find all the necessary code to replicate and modify the project.
 
 ### Results
 

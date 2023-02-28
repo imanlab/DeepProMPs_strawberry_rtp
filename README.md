@@ -26,7 +26,10 @@ The complete raw dataset can be found at this link, where you will also find add
 
 As previously mentioned, it is comprehensive of RGB images of strawberry cluster, and collected trajectories both in task and joint space, saved as numpy arrays.
 
-From the trajectories, we retrieved the probabilistic weights for the ProMPs, and we saved them as json files.
+What you will from the dataset, you can already find it in the description:
+
+        - strawberrry_renamed: 950 RGB images of strawberry cluster 
+        - probabilistic_renamed: 95 json files, associated to the strawberry images, containing the probabilistic weights for the ProMPs
 
 ### Code 
 
@@ -34,7 +37,7 @@ Respectively in 'e00_autoencoder_f', 'e01_rtp_cnn', 'e01_rtp_cnn_joints', 'prepr
 
 ## Try Yourself!
 
-To reproduce the project, create a folder and name it as you wish. Inside that folder, download the e00, e01s and preprocessing folders. On another folder called 'dataset', download the dataset folders: 'probabilistic_renamed' (containing the promp weights) and 'strawberry_renamed' (containing the strawberry images).
+To reproduce the project, create a folder and name it as you wish. Inside that folder, download the e00, e01s and preprocessing folders. On another folder called 'dataset', download the dataset folders: 'probabilistic_renamed' and 'strawberry_renamed'.
 
 The training phase is done in two steps:
 

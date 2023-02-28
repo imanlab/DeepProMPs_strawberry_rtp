@@ -26,7 +26,7 @@ The complete raw dataset can be found at this link, where you will also find add
 
 As previously mentioned, it is comprehensive of RGB images of strawberry cluster, and collected trajectories both in task and joint space, saved as numpy arrays.
 
-What you will from the dataset, you can already find it in the description:
+What you need from the dataset, you can already find it in the description:
 
         - strawberrry_renamed: 950 RGB images of strawberry cluster 
         - probabilistic_renamed: 95 json files, associated to the strawberry images, containing the probabilistic weights for the ProMPs

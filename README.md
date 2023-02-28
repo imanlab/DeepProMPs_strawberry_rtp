@@ -16,7 +16,9 @@ You can see a picture of the proposed architecture below:
 
 ### Working environment
 
-Models were built and trained using a conda environment with Python 3.9 and Tensorflow 2.7. You can replicate the same virtual environment from the "environment.yml" in the description. 
+Models were built and trained using a conda environment with Python 3.9 and Tensorflow 2.7. You can replicate the same virtual environment from the "environment.yml" with the following command:
+
+        conda env create -f environment.yaml -n "NAME_OF_THE_ENV"
 
 ### Dataset
 

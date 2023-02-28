@@ -1,6 +1,6 @@
 # DeepProMPs_strawberry_rtp
 
-##About The Project 
+## About The Project 
 
 The aim of the project is to apply the deep probabilistic movement primitives framework in the Agri-robotics filed, to solve the reach to pick task for a strawberry harvest application. 
 
@@ -12,13 +12,13 @@ We trained the MLP model on ProMPs weights, retrieved from a set of trajectories
 
 You can see a picture of the proposed architecture below:
 
-##What's inside 
+## What's inside 
 
-###Working environment
+### Working environment
 
 Models were built and trained using a conda environment with Python 3.9 and Tensorflow 2.7. You can replicate the same virtual environment from the "environment.yml" in the description. 
 
-###Dataset
+### Dataset
 
 The complete raw dataset can be found at this link, where you will also find additional useful informations: https://github.com/imanlab/Franka_datacollection_pipeline
 
@@ -26,15 +26,15 @@ As previously mentioned, it is comprehensive of RGB images of strawberry cluster
 
 From the trajectories, we retrieved the probabilistic weights for the ProMPs, and we saved them as json files. Do not panic: how to use the dataset will be explained in the follows.
 
-###Code 
+### Code 
 
 In the description you will find all the necessary code to replicate and modify the project
 
-###Results
+### Results
 
 The projects containes the folders 'LOSS', 'METRIC', 'PLOTS'. In the LOSS folder you will see two pictures representing the loss of the MLP trainig; in METRIC you will se a json file containing the results of the RMSE between true and predicted trajectories; in PLOTS you will visually see how much the predicted and gt trajectory probability distributions are similar to each other. 
 
-##Try Yourself!
+## Try Yourself!
 
 To reproduce the project, create a folder and inside that model download the code. On another folder called 'dataset', download the dataset.
 The training phase is done in two steps:

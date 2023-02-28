@@ -38,7 +38,8 @@ The projects containes the folders 'LOSS', 'METRIC', 'PLOTS'. In the LOSS folder
 
 ## Try Yourself!
 
-To reproduce the project, create a folder and inside that model download the code. On another folder called 'dataset', download the dataset.
+To reproduce the project, create a folder and name it as you wish. Inside that folder, download the e00, e01s and preprocessing folders. On another folder called 'dataset', download the dataset folders: 'probabilistic_renamed' (containing the promp weights) and 'strawberry_renamed' (containing the strawberry images).
+
 The training phase is done in two steps:
 
     - Training of the autoencoder: open your terminal, cd to the autoencoder folder, and type "python -m experiment run"

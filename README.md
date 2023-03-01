@@ -31,7 +31,7 @@ Download the strawberry images and save them inside a folder. Use 'rename_datase
 For the probabilisitc weights, there are two folders in the description:
 
         - probabilistic_renamed: 95 json files, associated to the strawberry images, containing the probabilistic weights for the ProMPs in task space
-        - probabilistic_renamed_joints: 95 json files, associated to the strawberry images, containing the probabilistic weights for the ProMPs in joint             space
+        - probabilistic_renamed_joints: 95 json files, associated to the strawberry images, containing the probabilistic weights for the ProMPs in joint space 
         
 Train your MLP model with these two, respectively.
 

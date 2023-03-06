@@ -29,7 +29,7 @@ METRIC_PATH = os.path.join(J_DIR, "METRIC")
 LOG_DIR = os.path.join(J_DIR, "LOGS", MODEL_NAME)
 
 ''' Encoder path '''
-ENCODER_MODEL_PATH = os.path.join(ROOT_DIR, "deep_movement_primitives-main/experiments/e00_autoencoder_f/"
+ENCODER_MODEL_PATH = os.path.join(ROOT_DIR, "deepProMPs_strawberry_rtp/experiments/e00_autoencoder_f/"
                                             "models/test_autoencoder_trainin")
 
 ''' HYPERPARAMETERS. '''

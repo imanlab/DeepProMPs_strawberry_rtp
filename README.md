@@ -8,7 +8,7 @@ The action of approaching the strawberry is performed by a Franka Emika robotic 
 
 The architecture of the model is composed of a CNN-Autoencoder, from which we retrieve the latente space of the strawberry cluster image, and a MultiLayerPerceptron, from which we predict the trajectories for the robotic arm to execute. The latent space is used as input for the MLP, that is made of three convolutional layers and two dense layer. 
 
-We trained the MLP model on ProMPs weights, retrieved from a set of trajectories collected by human-expertise. We used a probabilistic approach, defining a trajectory probability distribution of weights, defined by its mean and covariance. This operations where performed both in task and joint space.
+We trained the MLP model on ProMPs weights, retrieved from a set of trajectories collected by human-expertise. We used a probabilistic approach, defining a trajectory probability distribution of weights by its mean and covariance. This operations where performed both in task and joint space.
 
 You can see a picture of the proposed architecture below:
 

@@ -12,6 +12,10 @@ We trained the MLP model on ProMPs weights, retrieved from a set of trajectories
 
 You can see a picture of the proposed architecture below:
 
+![working_framwork](https://user-images.githubusercontent.com/82958449/223677540-cab77153-1754-40e3-abbb-bac5c0ffd736.jpg)
+
+From the predicted distribution, sample a trajectory and feed it to the robot.
+
 ## What's inside 
 
 ### Working environment

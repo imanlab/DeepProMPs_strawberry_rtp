@@ -45,6 +45,12 @@ Train your MLP model with these two, respectively.
 
 Respectively in 'e00_autoencoder_f', 'e01_rtp_cnn', 'e01_rtp_cnn_joints', 'preprocessing', you will find all the necessary code to replicate and modify the project.
 
+### Test on Robot
+
+Below you find a video of the Franka Emika in action, executing a reach-to-pick trajectory predicted by our model
+
+ https://user-images.githubusercontent.com/82958449/223994543-7c648056-87b0-4032-a971-207e6de13314.mp4
+
 ## Try Yourself!
 
 To reproduce the project, create a folder and name it as you wish. Inside that folder, download the e00, e01s and preprocessing folders. On another folder called 'dataset', download the dataset folders, and move strawberry_renamed inside.

@@ -49,9 +49,9 @@ Respectively in 'e00_autoencoder_f', 'e01_rtp_cnn', 'e01_rtp_cnn_joints', 'prepr
 
 Below you find a video of the Franka Emika in action, executing a reach-to-pick trajectory predicted by our model
 
-<p align="center">
-  <video src="https://user-images.githubusercontent.com/82958449/223994543-7c648056-87b0-4032-a971-207e6de13314.mp4" />
-</p>
+<div align="center">
+  <video src="https://user-images.githubusercontent.com/82958449/223994543-7c648056-87b0-4032-a971-207e6de13314.mp4" width=400/>
+<div/>
   
 ## Try Yourself!
 
